@@ -1,0 +1,33 @@
+{
+  "name": "horizom/paginator",
+  "description": "A simple paginator for PHP",
+  "type": "library",
+  "keywords": [
+    "paginator",
+    "pagination"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/horizom/paginator/issues",
+    "source": "https://github.com/horizom/paginator"
+  },
+  "authors": [
+    {
+      "name": "Roland Edi",
+      "email": "lambirou225@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Horizom\\Paginator\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
